@@ -1,0 +1,294 @@
+/* IMPORT DES FONTS  */
+@font-face {
+    font-family: "crp-medium";
+    src: url("../assets/fonts/TypeMates\ -\ CeraRoundPro-Medium.otf") format("truetype");
+   }
+@font-face {
+    font-family: "crp-light";
+    src: url("../assets/fonts/TypeMates\ -\ CeraRoundPro-Light.otf") format("truetype");
+   }
+
+/* STYLES DU SITE */
+
+body{
+    font-family: "crp-light";
+    overflow-x: hidden;
+    color: #fefefe;
+    font-size: 12px;
+}
+
+h1{
+    font-family: "crp-medium";
+    font-size: 24px;
+}
+h1 span {
+    background-color: #b3a1ff;
+    width: 200px;
+}
+h2{
+    font-family: "crp-medium";
+    font-size: 16px;
+}
+ul{
+    margin-top: 0;
+    max-width: 200px;
+}
+li{
+    list-style: none;
+    max-width: 200px;
+}
+
+button{
+    padding: 10px;
+    background-color: #6cbfdd;
+    color: #fefefe;
+    border: none;
+    border-radius: 20px;
+    margin: 20px;
+    font-family: "crp-medium";
+    font-size: 20px;
+}
+
+.flex-center-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.reveal{
+    transform: translateY(50px);
+    opacity: 0;
+}
+/* HOME */
+
+.home{
+    background-color: #d0748a;
+    height: 50vh;
+    width: 100vw;
+}
+.background__home{
+    height: 98%;
+    width: 95%;
+    background-image: url('../assets/img/background__home.png');
+    background-size: cover;
+    position: relative;
+    transform: translateY(20px);
+}
+.button--contact{
+    position: absolute;
+    top: -35px;
+    right: -50px;
+    width: 150px;
+    height: 50px;
+}
+.background__home h1 span{
+    display: block;
+}
+
+.background__home img{
+    width: 50px;
+    position: absolute;
+    left: 0;
+    transform: translateX(-10px);
+}
+
+/* SERVICE */
+
+.service{
+    background-color: #211d35;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.service ul {
+    display: flex;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.logo img{
+    width: 20px;
+    display: block;
+    align-self: center;
+}
+.devenir--exelent{
+    background-image: url('../assets/img/devenir--exelent.png');
+    background-size: cover;
+    height: 50vw;
+    width: 95vw;
+    text-align: center;
+    transform: translateY(50px);
+}
+
+/* ETAPE */
+
+.etape{
+    background-color: #a6e5ff;
+    padding-top: 60px;
+}
+.etape h2{
+    color: #292341;
+}
+.etape h2 span{
+    display: block;
+    color: #80bad2;
+}
+.etape ul{
+    color: #292341;
+    position: relative;
+}
+.etape ul .logo img{
+    width: 50px;
+    transform: translateX(-30px);
+}
+
+/* SOLUTION */
+
+.solution{
+    background-color: #211d35;
+    padding: 50px;
+}
+.solution p{
+    text-align: center;
+}
+.logo--footer{
+    margin: 50px;
+    width: 100px;
+}
+/*---------------- 
+------------------
+--- RESPONSIVE --- 
+------------------
+-----------------*/
+
+@media screen and (min-width: 640px) {
+    
+    /* STYLES DU SITE */
+
+body{
+
+    font-size: 16px;
+}
+
+h1{
+    font-family: "crp-medium";
+    font-size: 42px;
+}
+h2{
+    font-family: "crp-medium";
+    font-size: 28px;
+    width: 500px;
+}
+ul{
+    margin-top: 0;
+    max-width: 200px;
+}
+li{
+    max-width: 500px;
+}
+
+.flex-center-center{
+    display: flex;
+    align-items: flex-start;
+
+    
+}
+
+/* HOME */
+
+.home{
+    height: 70vh;
+    
+}
+.background__home{
+    height: 100%;
+    transform: translateY(50px);
+    margin: auto;
+}
+.background__home h1{
+    margin-left: 20vw;
+}
+.background__home h1 span{
+    display: block;
+}
+
+.background__home img{
+    width: 200px;
+    position: absolute;
+    left: 0;
+    transform: translateX(-3vw);
+}
+
+/* SERVICE */
+
+.service{
+    background-color: #211d35;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.service ul {
+    margin-left: 20vw;
+}
+.logo{
+    left: -50px;
+}
+.logo img{
+    width: 50px;
+}
+.devenir--exelent{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+/* ETAPE */
+
+.etape{
+    
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.title--etape{
+    margin-left: 20vw;
+}
+
+
+.etape ul{
+
+    margin-left: 20vw;
+}
+.etape li {
+    width: 500px!important;
+}
+.etape ul .logo img{
+    width: 50px;
+}
+
+/* SOLUTION */
+
+.solution{
+    background-color: #211d35;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.solution p{
+    text-align: center;
+
+}
+
+
+}
