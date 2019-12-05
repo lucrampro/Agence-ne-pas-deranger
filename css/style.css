@@ -84,8 +84,9 @@ button{
     position: absolute;
     top: -35px;
     right: -30px;
-    width: 100px;
-    height: 50px;
+    width: 70px;
+    height: 30px;
+    font-size: 13px;
 }
 .background__home h1 span{
     display: block;
@@ -209,6 +210,13 @@ p{
     
 }
 
+.button--contact{
+    position: absolute;
+    top: -35px;
+    right: -30px;
+    width: 100px;
+    height: 50px;
+}
 /* HOME */
 
 .home{
