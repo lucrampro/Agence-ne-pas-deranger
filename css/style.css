@@ -24,6 +24,9 @@ h1{
 h1 span {
     background-color: #b3a1ff;
     width: 80%;
+    text-align: center;
+    transform: translateX(-14px);
+
 }
 h2{
     font-family: "crp-medium";
@@ -45,10 +48,12 @@ button{
     background-color: #6cbfdd;
     color: #fefefe;
     border: none;
-    border-radius: 20px;
+    border-radius: 50px;
     margin: 20px;
     font-family: "crp-medium";
     font-size: 20px;
+    width: 92px;
+    height: 30px;
 }
 
 .flex-center-center{
@@ -64,6 +69,7 @@ button{
 
 .pink {
     background-color: #bf6b7f;
+    padding: 2px 5px;
 }
 /* HOME */
 
@@ -76,17 +82,19 @@ button{
     height: 100%;
     width: 80%;
     background-image: url('../assets/img/background__home.png');
-    background-size: cover;
+    background-size: 120%;
+    background-position: 9% 100% ;
     position: relative;
     transform: translateY(20px);
+    box-shadow: 3px 5px 13px -4px black;
 }
 .button--contact{
     position: absolute;
     top: -35px;
     right: -30px;
-    width: 70px;
+    width: 92px;
     height: 30px;
-    font-size: 13px;
+    font-size: 12px;
 }
 .background__home h1 span{
     display: block;
@@ -115,7 +123,7 @@ button{
 }
 .logo{
     position: absolute;
-    left: 5px;
+    left: -40px;
     top: 50%;
     transform: translateY(-50%);
 }
@@ -131,8 +139,12 @@ button{
     height: 50vw;
     width: 85vw;
     text-align: center;
+    background-position: 13% 72%;
     transform: translateY(59px);
+    font-family: "crp-medium";
+    box-shadow: 3px 5px 13px -4px black;
 }
+
 
 /* ETAPE */
 
@@ -153,7 +165,7 @@ button{
 }
 .etape ul .logo img{
     width: 50px;
-    transform: translateX(-30px);
+    transform: translateX(20px);
 }
 
 /* SOLUTION */
@@ -164,6 +176,18 @@ button{
 }
 .solution p{
     text-align: center;
+    font-size: 16px;
+    margin-top: 0px;
+}
+.solution h2{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.solution button {
+    font-size: 11px;
+    height: 40px;
+    width: 142px;
 }
 .logo--footer{
     margin: 50px;
@@ -236,7 +260,7 @@ p{
 }
 
 .background__home img{
-    width: 200px;
+    width: 100px;
     position: absolute;
     left: 0;
     transform: translateX(-3vw);
@@ -270,7 +294,7 @@ p{
 
 }
 .devenir--exelent h2{
-    font-size: 34px;
+    font-size: 40px;
     width: 100%;
     margin: auto;
 }
@@ -311,7 +335,20 @@ p{
 }
 .solution p{
     text-align: center;
+    font-size: 20px;
+    margin-top: 0px;
 
+}
+.solution h2 {
+    font-size: 48px;
+    margin-bottom: 10px;
+
+}
+
+.solution button{
+    font-size: 13px;
+    width: 172px;
+    height: 40px;
 }
 
 
