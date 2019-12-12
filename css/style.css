@@ -131,8 +131,13 @@ button{
     top: 50%;
     transform: translateY(-50%);
 }
+
+.service .logo{
+    left: -10px;
+}
+
 .logo img{
-    width: 20px;
+    width: 30px;
     display: block;
     align-self: center;
 }
@@ -300,6 +305,9 @@ p{
 }
 .logo img{
     width: 50px;
+}
+.service .logo{
+    left: -40px;
 }
 .devenir--exelent{
     display: flex;
