@@ -43,6 +43,10 @@ li{
 p{
     width: 300px;
 }
+.one, .two, .three {
+    display: block;
+}
+
 button{
     padding: 10px;
     background-color: #6cbfdd;
@@ -86,7 +90,7 @@ button{
     background-position: 9% 100% ;
     position: relative;
     transform: translateY(20px);
-    box-shadow: 3px 5px 13px -4px black;
+    box-shadow: 3px 35px 114px -4px black;
 }
 .button--contact{
     position: absolute;
@@ -94,7 +98,7 @@ button{
     right: -30px;
     width: 92px;
     height: 30px;
-    font-size: 12px;
+    font-size: 15px;
 }
 .background__home h1 span{
     display: block;
@@ -140,17 +144,24 @@ button{
     width: 85vw;
     text-align: center;
     background-position: 13% 72%;
-    transform: translateY(59px);
+    transform: translateY(90px);
     font-family: "crp-medium";
-    box-shadow: 3px 5px 13px -4px black;
+    box-shadow: 3px 35px 114px -4px black;
 }
 
+.devenir--exelent h2 {
+    font-size: 23px;
+    line-height: 28px;
+}
 
 /* ETAPE */
 
 .etape{
     background-color: #a6e5ff;
     padding-top: 60px;
+}
+.title--etape {
+    margin-top: 100px;
 }
 .etape h2{
     color: #292341;
@@ -203,6 +214,7 @@ button{
     
     /* STYLES DU SITE */
 
+
 body{
 
     font-size: 16px;
@@ -226,6 +238,10 @@ li{
 }
 p{
     width: 600px;
+}
+
+.one {
+    font-size: 52px;
 }
 .flex-center-center{
     display: flex;
@@ -291,11 +307,12 @@ p{
     text-align: center;
     margin: auto;
     font-size: 20px;
-
+    transform: translateY(220px);
 }
 .devenir--exelent h2{
     font-size: 40px;
     width: 100%;
+    line-height: 45px;
     margin: auto;
 }
 
@@ -308,8 +325,8 @@ p{
 }
 .title--etape{
     margin-left: 20vw;
+    margin-top: 250px;
 }
-
 
 .etape ul{
 
