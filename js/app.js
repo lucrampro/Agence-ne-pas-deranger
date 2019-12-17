@@ -30,4 +30,18 @@ TweenMax.fromTo('.title--home', 3,
     y:0
 })
 
+  /// defilement du scroll au clic des boutons de devis 
+  var arrow = document.querySelector('.button--contact');
+	var solutionPos = document.querySelector('.solution').offsetTop;
+	
+
+	arrow.addEventListener('click', function () {
+		TweenMax.to(window, 1, {
+			scrollTo:  solutionPos,
+			ease: Expo.easeInOut
+		});
+	})
+
+
+
   
