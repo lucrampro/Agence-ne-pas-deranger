@@ -99,6 +99,7 @@ button{
     width: 92px;
     height: 30px;
     font-size: 15px;
+    cursor: pointer;
 }
 .button--contact a{
     text-decoration: none;
@@ -208,6 +209,12 @@ button{
     font-size: 11px;
     height: 40px;
     width: 142px;
+    cursor: pointer;
+}
+.solution button a {
+    color: white;
+    text-decoration: none;
+    outline: none;
 }
 .logo--footer{
     margin: 50px;
